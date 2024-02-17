@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: bisque;
+  height: 30px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.navbar-list {
+  list-style-type: none;
+  text-align: right;
+  margin-top: 0;
+  margin-left: 100px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 100px;
+}
