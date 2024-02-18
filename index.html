@@ -1,26 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <title>Portfolio Project</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
       <ul class="navbar-list">
-        <li><a href="#Home">Home</a></li>
-        <!-- <li><a href="#About">About</a></li> -->
-        <li><a href="#Work">Work</a></li>
-        <li><a href="#Resume">Resume</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="logo">Tobi Yusuf</div>
     </nav>
-    <div id="About">
-      <img src="" alt="" />
+    <section class="home">
+      <div class="intro">
+        <h1>Hello.</h1>
+        <p>I'm Tobi, a Student at Gomycode learning web development</p>
+        <button class="btn">My Portfolio</button>
+      </div>
+
+      <iframe
+        width="720"
+        height="515"
+        src="https://www.youtube.com/embed/zcTFG_F0FRs"
+        class="video"
+      ></iframe>
+    </section>
+
+    <section id="about">
+      <h3>About me</h3>
+      <hr />
+      <div class="about-section">
+        <img
+          src="https://www.udacity.com/blog/wp-content/uploads/2023/02/learning-to-code-1-scaled.jpeg"
+          alt=""
+          class="about-image"
+        />
+        <div class="about-content">
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde animi
+            architecto omnis modi dolor, quod molestiae, tenetur ipsum cum
+            delectus ad aliquam sequi non, quam itaque incidunt sunt nemo
+            facere?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h3>My Work</h3>
+      <hr />
+      <p class="work-intro">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </p>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="photo">
+            <img
+              src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+              alt=""
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-content">
+            <p><b>Web Development</b></p>
+            <p>Frontend & Backend</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="photo">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1400/1*kc-v6iCc7v_JmXvJu1vLCg.jpeg"
+              alt=""
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-content">
+            <p><b>Data Science</b></p>
+            <p>Machine learning & Deep learning</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="photo">
+            <img
+              src="https://media.licdn.com/dms/image/D5612AQGNldb81X9c0A/article-cover_image-shrink_720_1280/0/1685384502057?e=2147483647&v=beta&t=S7MrxldzfbdZTV3KojC3cEH1IUaSSJiXRO9xcxBbU6k"
+              alt=""
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-content">
+            <p><b>Finance</b></p>
+            <p>Financial Modelling & Analysis</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h3>Resume</h3>
+      <hr />
+      <div class="resume-content">
+        <div class="yearsexperience">2022 - Present</div>
+        <div>
+          <p>Snr Web developer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            cumque sunt eaque reprehenderit voluptatum enim, voluptas ex
+            accusantium laudantium fuga eius fugit ullam commodi. Alias, ratione
+            illum! Voluptatum, numquam consequatur?
+          </p>
+        </div>
+      </div>
+      <div class="resume-content">
+        <div class="yearsexperience">2020 - 2022</div>
+        <div>
+          <p>Jnr Web developer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            cumque sunt eaque reprehenderit voluptatum enim, voluptas ex
+            accusantium laudantium fuga eius fugit ullam commodi. Alias, ratione
+            illum! Voluptatum, numquam consequatur?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="contact">
+      <h3>Contact me</h3>
+      <hr />
+      <p>
+        In order to discuss the project in more details, please contact me by
+        phone or through social media.
+      </p>
+      <div class="form-container">
+        <form>
+          <label for="fname">First name</label>
+          <input
+            id="fname"
+            name="firstname"
+            placeholder="Your first name..."
+            type="text"
+          />
+
+          <label for="lname">Last name</label>
+          <input
+            id="lname"
+            name="lastname"
+            placeholder="Your last name..."
+            type="text"
+          />
+
+          <label for="subject">Subject</label>
+          <textarea
+            name="subject"
+            id="subject"
+            placeholder="Write your request..."
+            cols="30"
+            rows="10"
+          >
+  Type your message here...</textarea
+          >
+          <button class="btn form-btn" type="submit">Send Message</button>
+        </form>
+      </div>
     </div>
-    <div class="Work"></div>
-    <div class="Resume"></div>
-    <div class="Contact">
-      <form></form>
+
+    <div class="footer">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <h5 class="copyright">© Tobi Yusuf. 2024</h5>
     </div>
   </body>
 </html>

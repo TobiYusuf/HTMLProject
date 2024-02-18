@@ -4,11 +4,16 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 2rem;
+}
+
 .navbar {
-  background-color: bisque;
+  background-color: aliceblue;
   height: 30px;
-  padding-top: 20px;
+  padding-top: 50px;
   display: flex;
+  font-size: 30px;
 }
 
 .navbar-list {
@@ -21,4 +26,185 @@ body {
 li {
   display: inline-block;
   margin-left: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  margin-left: 800px;
+}
+
+.home {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.intro {
+  margin-top: 150px;
+}
+
+.video {
+  margin-left: 100px;
+  margin-bottom: 10%;
+}
+
+.btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 22px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.btn:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.about-image {
+  height: 500px;
+  width: 800px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+hr {
+  width: 5%;
+  margin-bottom: 30px;
+  border-style: dotted none none;
+  border-width: 7px;
+  color: grey;
+}
+
+#about {
+  padding-top: 30px;
+}
+
+.about-section {
+  display: flex;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 150px;
+  margin-left: 15%;
+}
+
+.about-content {
+  margin-left: 50px;
+}
+
+#work {
+  background-color: aliceblue;
+  padding: 50px 0 150px;
+}
+
+.work-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-content {
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 450px;
+  margin-left: 100px;
+  /* padding-left: 20px; */
+}
+
+.photo {
+  width: 100%;
+  text-align: center;
+}
+
+.card-img {
+  /* width: auto; */
+  /* height: auto; */
+  width: 450px;
+  height: 400px;
+}
+
+#resume {
+  margin-bottom: 50px;
+}
+
+.resume-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+
+.yearsexperience {
+  margin-right: 100px;
+  width: 100%;
+  margin-bottom: 19%;
+}
+
+#contact {
+  background-color: aliceblue;
+  padding: 25px 0 50px;
+}
+
+#contact p {
+  text-align: center;
+}
+
+.form-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+label,
+.form-btn {
+  margin-left: 25%;
+  font-size: 2rem;
+}
+
+input[type="text"],
+textarea {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.footer {
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+.footer-link {
+  margin-right: 30px;
 }
